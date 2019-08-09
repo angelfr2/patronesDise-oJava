@@ -65,11 +65,11 @@ class SRPDemo
         j.addEntry("I ate a bug");
         System.out.println(j);
 
-      //  Persistence p = new Persistence();
-       // String filename = "c:\\temp\\journal.txt";
-      //  p.saveToFile(j, filename, true);
+       Persistence p = new Persistence();
+       String filename = "c:\\temp\\journal.txt";
+       p.saveToFile(j, filename, true);
 
         // windows!
-      //  Runtime.getRuntime().exec("notepad.exe " + filename);
+       Runtime.getRuntime().exec("notepad.exe " + filename);
     }
 }
