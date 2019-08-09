@@ -1,3 +1,3 @@
-# patronesDise-ojava
+# patronesDiseñojava
 
 patrones Diseño Java 
